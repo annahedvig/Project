@@ -1,0 +1,6 @@
+from dagster import Definitions
+from codeson import hello_world
+
+defs = Definitions(
+    assets=[hello_world]
+)
