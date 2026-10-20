@@ -1,5 +1,5 @@
 from dagster import Definitions
-from codeson import hello_world
+from my_script import hello_world
 
 defs = Definitions(
     assets=[hello_world]
